@@ -1,0 +1,146 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    display: flex;
+    flex-direction: column;
+}
+header{
+    background-color: #4682B4;
+    width: 100%;
+    height: fit-content;
+}
+main {
+    background-color: whitesmoke;
+    width: 100%;
+    height: fit-content;
+}
+
+footer {
+    background-color: #708090;
+    width: 100%;
+    height: fit-content;
+}
+title{
+    display: none;
+}
+#titulo{
+    font-family: "Open Sans", sans-serif;
+    font-size: 60px;
+    padding-left: 1%;
+}
+#listaTopicos{
+    list-style-type: square;
+    padding-left: 4%;
+}
+.subtitulo{
+    font-family: "Open Sans", sans-serif;
+    font-size: 40px;
+    padding-left: 1%;
+}
+.topicos{
+    font-family: "Open Sans", sans-serif;
+    color: #4682B4;
+    text-decoration: none;
+}
+.topicos:hover{
+    background-color: whitesmoke;
+}
+.caixaConteudo{
+    padding-left: 4%;
+    width: 60%;
+}
+.caixaConteudo p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+}
+.caixaConteudo li{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+}
+.caixaConteudo img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    height: auto;
+}
+.textoFooter{
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 1%;
+}
+h2{
+    font-family: "Open Sans", sans-serif;
+    padding-left: 3%;
+    padding-top: 1%;
+}
+#voltarAoTopoBtn {
+    position: fixed;
+    bottom: 3%; 
+    right: 1%; 
+    border: none;
+    padding: 1% 1%;
+    z-index: 999; 
+  }
+#voltarAoTopoBtn img {
+    width: 24px; 
+    height: auto;
+    display: block; 
+}
+#leiOhm > * {
+    margin-bottom: 20px; 
+}
+#leiOhm img {
+    display: block; 
+    margin-left: auto; 
+    margin-right: auto; 
+    max-width: 100%; 
+    height: auto;
+}
+table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+th, td {
+    font-family: Arial, Helvetica, sans-serif;
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+}
+th {
+    font-family: "Open Sans", sans-serif;
+    background-color: #f2f2f2;
+}
+#visualizadorOhm {
+    display: flex;
+    flex-direction: column;
+    margin-left: 5%;
+    margin-top: 2%;
+}
+#visualizadorOhm div {
+    margin-bottom: 10px;
+}
+#equacaoVisual {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 20px;
+    font-size: 1.2em;
+}
+.icone {
+    width: 15px;
+    height: 15px;
+    background-color: #4682B4; /* Cor azul para os ícones */
+    display: inline-block;
+    margin-right: 2px;
+    border-radius: 3px;
+}
+
+#mensagemVisual {
+    margin-top: 20px;
+    font-style: italic;
+    color: #555;
+}
