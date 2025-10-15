@@ -1,4 +1,4 @@
-## ⚡️ Lei de Ohm (Visualizador Interativo)
+# ⚡️ Lei de Ohm (Visualizador Interativo)
 
 Este é um projeto **educacional e interativo** que visa explicar os conceitos e as relações fundamentais da Lei de Ohm, através de conteúdo teórico e uma ferramenta de simulação visual. O projeto é construído unicamente com HTML, CSS e JavaScript puro (Front-end).
 
